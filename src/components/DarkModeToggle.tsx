@@ -21,14 +21,14 @@ const DarkModeToggle = () => {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-100 dark:bg-gray-900">
+    <>
       <button
         onClick={toggleTheme}
         className="p-4 text-xl rounded-full bg-gray-300 dark:bg-gray-800 text-gray-800 dark:text-gray-200"
       >
         {theme === "light" ? <FaMoon /> : <LuSun />}
       </button>
-    </div>
+    </>
   );
 };
 

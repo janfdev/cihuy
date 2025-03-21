@@ -1,13 +1,12 @@
-import Toggle from "./components/DarkModeToggle";
 import Header from "./layouts/Header";
 
 function App() {
   return (
-    <>
-      <section className="container mx-auto min-h-screen">
+    <section className="dark:bg-gray-700">
+      <section className="container mx-auto min-h-screen ">
         <Header />
       </section>
-    </>
+    </section>
   );
 }
 

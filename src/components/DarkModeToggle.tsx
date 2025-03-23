@@ -24,7 +24,7 @@ const DarkModeToggle = () => {
     <>
       <button
         onClick={toggleTheme}
-        className="p-4 text-xl rounded-full bg-gray-300 dark:bg-gray-800 text-gray-800 dark:text-gray-200"
+        className="p-4 text-xl rounded-full bg-gray-300 dark:bg-gray-200 text-gray-800 dark:text-gray-800"
       >
         {theme === "light" ? <FaMoon /> : <LuSun />}
       </button>

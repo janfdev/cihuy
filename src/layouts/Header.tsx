@@ -4,7 +4,7 @@ import { TbMenu2 } from "react-icons/tb";
 import { IoClose } from "react-icons/io5";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
